@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: antiquewhite;
+            padding: 20px;
+        }
+
+        .contact-form {
+            background-color: white;
+            padding: 20px;
+            max-width: 450px;
+            margin: auto;
+            border: 1px solid #ccc;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #999;
+        }
+
+        input[type="submit"] {
+            margin-top: 15px;
+            width: 100%;
+            padding: 10px;
+            background-color: #444;
+            color: white;
+            border: none;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form>
+            <label>Name:</label>
+            <input type="text" name="name" size="30">
+
+            <label>Email:</label>
+            <input type="email" name="email">
+
+            <label>Message:</label>
+            <textarea name="message" rows="4"></textarea>
+
+            <input type="submit" value="Send">
+        </form>
+    </div>
+
+</body>
+</html>
